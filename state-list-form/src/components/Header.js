@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from '../logo.svg';
 import './Header.css';
+import Title from './Title';
+
+
 
 // function header(){
 //     return (
@@ -13,11 +16,14 @@ import './Header.css';
 
 // the following is the same as above just using ES6 syntax
 
+// FUNCTIONAL COMPONENT IS ALWAYS "STATELESS" 🚨
 const header = () => {
     return (
         <header>
             <img src={logo} alt="logo" className="App-logo" />
-            <h1>My first create-react-app!</h1>
+            {/* <h1>My first create-react-app!</h1> */}
+            <Title message="My first create-react-app!"  />
+        
         </header>
     )
 }

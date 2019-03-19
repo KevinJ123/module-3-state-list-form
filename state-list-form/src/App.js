@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 
+import Counter from './components/Counter';
+import StudentsList from './components/StudentsList';
 
 class App extends Component {
   render() {
@@ -10,6 +12,8 @@ class App extends Component {
       <div className="App">
       {/* <Header></Header> */}
         <Header />
+        <Counter />
+        <StudentsList />
       </div>
     );
   }
