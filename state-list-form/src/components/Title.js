@@ -7,7 +7,5 @@ const title = (props) => {
     return (
         <div>{ props.message }</div>
     )
-
 }
-
 export default title;
